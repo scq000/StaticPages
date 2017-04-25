@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="">
+    <title>Static Pages</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header id="header" role="banner">
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <button class="navbar-toggle" name="button" type="button" data-toggle="collapse" data-target="#nav_main">
+                <span class="fa fa-bars"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+                <span class="logo">StaticPages</span>
+            </a>
+        </div>
+
+        <div class="navbar-collapse collapse in" id="nav_main" aria-expanded="true">
+            <ul class="nav navbar-nav" id="nav_primary">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="Bootstrap/index.html">Bootstrap</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section id="wrapper">
+    <div class="firstwisp"></div>
+    <form action="/search" role="form" method="get" accept-charset="UTF-8" class="form-inline" id="search_form">
+        <input type="search" role="search" autocomplete="off" class="form-control" id="search_thing"
+               placeholder="Search theme">
+        <i class="fa fa-search"></i>
+    </form>
+</section>
+
+<a href="#" id="go_top" style="display: block;">
+    <i class="fa fa-angle-up fa-2x"></i>
+</a>
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
